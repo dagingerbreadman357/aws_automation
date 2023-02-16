@@ -10,7 +10,7 @@ s3.upload_file(
     Key="list-script.py"                                                               # name of file=key  value=content of file
     )
 
-# how to upload multiple files
+# "upload multiple files"
 
 #import os
 #import glob
