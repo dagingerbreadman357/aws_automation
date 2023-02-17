@@ -30,7 +30,9 @@ dynamodb.put_item(                                # adding items to the dynamodb
 )
 
 table_name = 'Favorite_Movies'                      # (optional) creating a variable to use in print statement
-# print(table_name.title(), 'has been created.')
+
+# print(table_name.title(), 'has been created.')    # (optional) visual that xxx dynamodb table has been created
+
 response = dynamodb.scan(                           # using the scan method to place items in a variable list
     TableName='Favorite_Movies')
 
