@@ -34,6 +34,6 @@ table_name = 'Favorite_Movies'                      # (optional) creating a vari
 response = dynamodb.scan(                           # using the scan method to place items in a variable list
     TableName='Favorite_Movies')
 
-print(response['Items'])                            # print 'Key' Items which should return a list of K/V pair for all items in list
+print(response['Items'])                            # (optional) print 'Key' Items which should return a list of K/V pair for all items in list
 
 
